@@ -1,3 +1,6 @@
+> ⚠️ **Notice:** This project has been archived and is no longer maintained.  
+> There's a new fork thats improved and updated regularly named [Orpheusmorebetter](https://github.com/walkrflocka/orpheusmorebetter).
+
 Introduction
 ------------
 
