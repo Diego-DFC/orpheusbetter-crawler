@@ -74,7 +74,7 @@ def scrub_tag(name, value):
 
     return scrubbed_value
 
-def check_tags(filename, check_tracknumber_format=True):
+def check_tags(filename, check_tracknumber_format=False):
     """Verify that the file has the required What.CD tags.
 
     Returns (True, None) if OK, (False, msg) if a tag is missing or
