@@ -103,7 +103,11 @@ def copy_tags(flac_file, transcode_file):
 
     if transcode_ext == '.flac':
         transcode_info = mutagen.flac.FLAC(transcode_file)
+        flac_pics = flac_info.pictures
         valid_key_fn = lambda k: True
+        if flac_pics:
+                cover = flac_pics[0]
+                transcode_info.add_picture(cover)
 
     elif transcode_ext == '.mp3':
         transcode_info = mutagen.mp3.EasyMP3(transcode_file)
